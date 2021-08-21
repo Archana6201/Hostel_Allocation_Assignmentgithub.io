@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import './auth.css';
+import '../src/service/fontawesome/css/all.min.css';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

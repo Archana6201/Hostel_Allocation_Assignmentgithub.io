@@ -1,0 +1,190 @@
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.log-div{
+   display: block;
+   margin-top: 50vh;
+   text-align: center;
+   position: static;
+   z-index: 0;
+}
+#logBtn{
+    background-color: white;
+    box-shadow:0px 2px 1px black;
+   
+    width: 160px;
+    border: none;
+    height: 26px;
+}
+.fa-google{
+    color: red;
+    margin-right: 4px;
+}
+#log2Btn{
+    background-color: white;
+    box-shadow:0px 2px 1px black;
+    background-color: rgb(52, 52, 122);
+    color: white;
+    margin-top: 10px;
+    width: 160px;
+    border: none;
+    height: 26px;
+}
+.fa-facebook-f{
+    margin-right: 4px;
+    background-color: white;
+    height: 12px;
+    width: 12px;
+    color: rgb(52, 52, 122);
+}
+.userDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    z-index: 1;
+}
+.UserInformation{
+    text-align: center;
+}
+.gender-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
+img{
+    height: 140px;
+    width: 140px;
+    margin: 10px;
+}
+.btn{
+    margin: 20px;
+}
+.userConfirmation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
+.roomDetails{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-left: 50px;
+    width: 50vw;
+    height: 400px;
+    position: static;
+}
+.roomDetails h1{
+    text-align: center;
+    margin: 20px;
+}
+.roomDetails h4{
+    margin: 20px;
+}
+.roomDetails h3{
+    margin: 20px;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chooseHostel h1{
+    text-align: center;
+}
+.row1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    color: white;
+    margin: 14px;
+    font-weight: 400;
+    background-color: grey;
+}
+.row2 div{
+    margin: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    color: white;
+    font-weight: 400;
+    background-color: grey;
+}
+.floor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selectRoom{
+    border-radius: 10px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.floor{
+    display: block;
+}
+.selectfloor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divgrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    margin: 16px;
+    font-size: 22px;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+#grid6{
+    grid-column: 4/5;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+.bookedRoom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booked{
+    background-color: skyblue;
+    border-radius: 20px;
+    padding-left: 50px;
+    width: 40vw;
+    height: 300px;
+    position: static;
+}
+.fa-times-circle{
+    color: red;
+    margin-top: 14px;
+    font-size: 22px;
+}
+.booked h3{
+    text-align: center;
+}
+.booked h4{
+    margin: 20px;
+}
